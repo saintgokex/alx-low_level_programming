@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints a-zA-Z
+ * main - print alphabet
  *
  * Return: Always 0 (Success)
  */
@@ -17,6 +17,7 @@ int main(void)
 	{
 		putchar(c);
 	}
-
+	
+	putchar('\n');
 	return (0);
 }
