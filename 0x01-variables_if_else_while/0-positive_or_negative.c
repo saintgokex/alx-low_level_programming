@@ -5,8 +5,6 @@
 /**
  * main- Entry point
  *
- * description: Prints if number is positve, zero or negative
- *
  * return: Always 0 (Success)
  */
 int main(void)
