@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio>
+#include <stdio.h>
 /**
  * main- Prints last digits
  *
@@ -25,5 +25,6 @@ int main(void)
 	else
 	{
 		printf("less than 6 and not 0\n");
-	}return (0);
+	}
+	return (0);
 }
