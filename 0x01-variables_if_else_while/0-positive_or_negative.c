@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * main: prints if number is positve, zero or negative
+ * main- Prints if number is positve, zero or negative
  *
- * return: always (success)
+ * return: Always (Success)
  */
-
 int main(void)
 {
 	int n;
