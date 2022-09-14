@@ -6,7 +6,7 @@
  */
 int _isalpha(int c)
 {
-	char c;
+	int c;
 	{
 	if (c < 91 && c > 4)
 		return (1);
