@@ -35,7 +35,7 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			y++
+			y++;
 		}
 		_putchar('\n');
 		x++;
