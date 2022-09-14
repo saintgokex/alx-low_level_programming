@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * main - Entry point
  * Description: writes a to z
