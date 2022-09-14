@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  * Description: writes a to z
  * Return: Always 0 (Success)
  */
