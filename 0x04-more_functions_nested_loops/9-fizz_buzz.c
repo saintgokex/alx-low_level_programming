@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print number 0 to 100
+ * main - print buzz, fizz, for multiples of 5 and 3
  *
  * Return: Always 0
  */
@@ -8,7 +8,9 @@ int main(void)
 {
 	int n;
 
-	for (n = 1; n <= 100; n++)
+	n = 1;
+	printf("%d", n);
+	for (n = 2; n <= 100; n++)
 	{
 		if (n % 3 == 0)
 		{
