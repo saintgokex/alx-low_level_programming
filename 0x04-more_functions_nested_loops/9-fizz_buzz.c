@@ -30,5 +30,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	return (n);
+	return (0);
 }
