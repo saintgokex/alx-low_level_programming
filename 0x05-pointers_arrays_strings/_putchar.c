@@ -7,7 +7,7 @@
  * Return: on success 1.
  * On error, -1 is returned, and errno is set appropriately
  */
-int _putchar(int n)
+int _putchar(int *n)
 {
 	return (write(1, &n, 1));
 }
