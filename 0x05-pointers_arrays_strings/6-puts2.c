@@ -3,7 +3,7 @@
  * puts2 - print every character of a string
  * @str- string
  */
-void puts22(char *str)
+void puts2(char *str)
 {
 	int a = 0, len = 0;
 
