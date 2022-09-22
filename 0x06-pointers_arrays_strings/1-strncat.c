@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * _strncat - cat a string to the end of another
  * @dest: pointer to char param
  * @src: pointer to char param
