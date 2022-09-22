@@ -1,9 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_number - prints an integer
+ * print_number - prints an integer using _putchar
  * @n: input integer
- * Return: no return
  */
 void print_number(int n)
 {
