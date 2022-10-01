@@ -9,9 +9,11 @@
 
 int main(int argc, char *argc[])
 {
-	for (argv[] = 0; argv[] <= argc - 1)
+	int i;
+
+	for (i = 0; i <= argc - 1; i++)
 	{
-		printf("%s\n", argv[]);
-		argv[]++;
+		printf("%s\n", argv[i]);
 	}
+	return (0);
 }
