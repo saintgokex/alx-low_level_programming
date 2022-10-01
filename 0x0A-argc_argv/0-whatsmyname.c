@@ -5,11 +5,9 @@
  * *argv: argument vector
  * Return: 0
  */
-int main (int argc, char *argv[])
+int main (int argc __attribute__((unused)), char *argv[])
 {
-	for (argv[] = 0; argv[] <= (argc - 1); argv[]++)
-	{
-		_putchar("argv[0]");
-	}
-	_putchar('\n');
+	printf("%s\n", *argv);
+
+	return (0);
 }
