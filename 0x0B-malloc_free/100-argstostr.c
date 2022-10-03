@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argsrostr - cat all arguments of the program
+ * argstostr - cat all arguments of the program
  * @ac: argument count
  * @av: pointer to array of size ac
  * Return: NULL if fail or (ac == 0 || av == null), pointer to new string
