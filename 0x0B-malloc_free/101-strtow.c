@@ -23,20 +23,20 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
  * mallocnem - allocates memory for output array and sets NULL at strings end
  * @newstr: new string
  * @str: input string
- * 
+ *
  * @str_len: string length
  * Return: void
  */
-
 void mallocmem(char **newstr, char *str, int str_len)
 {
 	int i = 0, j = 0, word_len = 1;
 
 	while (i < str_len)
 	{
-		if (str[i] != ' ' && i < str_len)
+		if (str[i] != ' ')
 		{
-			i++, word_len++;
+			while (str[i] != ' ' && i < str_len)
+			i++, word_len++;101-strtow.c
 		newstr[j] = malloc(sizeof(char) * word_len);
 		newstr[j][word_len] = '\0';
 		j++, word_len = 1;
