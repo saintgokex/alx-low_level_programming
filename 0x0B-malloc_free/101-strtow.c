@@ -20,7 +20,7 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
 }
 
 /**
- * mallocnem - allocates memory for output array and sets NULL at strings end
+ * mallocmem - allocates memory for output array and sets NULL at strings end
  * @newstr: new string
  * @str: input string
  *
