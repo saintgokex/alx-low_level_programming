@@ -15,7 +15,7 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
 	int j;
 
 	for (j = 0; src[i] != ' ' && i < str_len; i++, j++)
-		dest[jl] = src[i];
+		dest[j] = src[i];
 	return (i);
 }
 
@@ -23,7 +23,7 @@ int strncat_mod(char *dest, char *src, int i, int str_len)
  * mallocnem - allocates memory for output array and sets NULL at strings end
  * @newstr: new string
  * @str: input string
- * @str: input string
+ * 
  * @str_len: string length
  * Return: void
  */
