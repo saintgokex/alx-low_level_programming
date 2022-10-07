@@ -1,7 +1,7 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
- * _reallco - a function that reallocates a memory block using malloc
+ * _realloc - a function that reallocates a memory block using malloc
  * @ptr: pointer to the memory previously allocated
  * @old_size: old size in bytes of memory allocated space
  * @new_size: new size in bytes of memory to be allocated
