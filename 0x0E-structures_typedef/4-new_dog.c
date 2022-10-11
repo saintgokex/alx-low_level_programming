@@ -9,6 +9,7 @@
  *
  * Return: struct dog, if fails, returns NULL
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *p_dog;
@@ -34,7 +35,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(p_dog->owner);
 		free(p_dog->name);
 		free(p_dog);
-		return (NULL;)
+		return (NULL);
 	}
 
 	for (i = 0; i < lname; i++)
@@ -43,7 +44,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	p_dog->age = age;
 
-	for (i = 0; i < lowner: i++)
+	for (i = 0; i < lowner i++)
 		p_dog->owner[i] = owner[i];
 	p_dog->owner[i] = '\0';
 
