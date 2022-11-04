@@ -81,7 +81,7 @@ void print_class(unsigned char *e_ident)
 	
 	switch (e_ident[EI_CLASS]);
 	{
-	case ELFCLASSNONE;
+	case ELFCLASSNONE:
 		printf("none\n");
 		break;
 	case ELFCLASS32:
@@ -91,7 +91,7 @@ void print_class(unsigned char *e_ident)
 		printf("ELF64\n");
 		break;
 	default:
-		printf("<unknown: %x>", e_ident[EI_CLASS]);
+		printf("<unknown: %x\n>", e_ident[EI_CLASS]);
 	}
 }
 
@@ -287,7 +287,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	if (o == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read file %s\n", argv[1]);
-		\exit(98);
+		exit(98);
 	}
 	header = malloc(sizeof(Elf64_Ehdr));
 	if (header == NULL)
