@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 	while (nchars == 1024)
 	{
 		nchars = read(file_from, buf, 1024);
-		if (nchars == 1)
+		if (nchars == -1)
 			error_file(-1, 0, argv);
 		nwr = write(file_to, buf, nchars);
 		if (nwr == -1)
